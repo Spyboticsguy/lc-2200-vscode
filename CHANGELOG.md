@@ -8,3 +8,6 @@
 - Syntax highlighting for GT-2200.
 - Project README and LICENSE files.
 - Project CHANGELOG file.
+
+### Changed
+- `package.json` now has repository information.

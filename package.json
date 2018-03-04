@@ -22,5 +22,13 @@
             "scopeName": "source.lc-2200",
             "path": "./syntaxes/lc-2200.tmLanguage.json"
         }]
+    },
+    "bugs": {
+        "email": "spyboticsguy@gmail.com",
+        "url": "https://github.com/Spyboticsguy/lc-2200-vscode/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Spyboticsguy/lc-2200-vscode.git"
     }
 }
