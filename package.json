@@ -1,7 +1,7 @@
 {
     "name": "lc-2200-language-support",
     "displayName": "LC-2200 Language Support",
-    "description": "Adds syntax highlighting to assenbly code written for the LC-2200 ISA.",
+    "description": "Adds syntax highlighting to assebly code written for the LC-2200 ISA.",
     "version": "1.0.0",
     "publisher": "tristen-allen",
     "engines": {
