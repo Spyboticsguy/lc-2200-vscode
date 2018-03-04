@@ -1,0 +1,26 @@
+{
+    "name": "lc-2200-language-support",
+    "displayName": "LC-2200 Language Support",
+    "description": "Adds syntax highlighting to assenbly code written for the LC-2200 ISA.",
+    "version": "0.0.1",
+    "publisher": "tristen-allen",
+    "engines": {
+        "vscode": "^1.20.0"
+    },
+    "categories": [
+        "Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "lc-2200",
+            "aliases": ["LC-2200", "lc-2200"],
+            "extensions": [".s"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "lc-2200",
+            "scopeName": "source.lc-2200",
+            "path": "./syntaxes/lc-2200.tmLanguage.json"
+        }]
+    }
+}

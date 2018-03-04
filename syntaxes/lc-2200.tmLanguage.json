@@ -1,0 +1,69 @@
+{
+	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+	"name": "LC-2200",
+	"patterns": [
+		{
+			"include": "#keywords"
+		},
+		{
+			"include": "#variables"
+		},
+		{
+			"include": "#comments"
+		},
+		{
+			"include": "#constants"
+		}
+	],
+	"repository": {
+		"keywords": {
+			"patterns": [
+				{
+					"name": "keyword.other.opcode.lc-2200",
+					"match": "(?i)\\b(add|nand|addi|lw|sw|beq|jalr|halt|ei|di|reti|nop)\\b"
+				},
+				{
+					"name": "keyword.other.opcode.gt-2200",
+					"match": "(?i)\\b(goto|lea|skp(e|gt))\\b"
+				},
+				{
+					"name": "markup.bold.reg.lc-2200",
+					"match": "(?i)\\$(zero|at|v0|a[0-2]|t[0-2]|s[0-2]|k0|sp|fp|ra)\\b"
+				},
+				{
+					"name": "keyword.other.pseudo-op.lc-2200",
+					"match": "(?i)\\.(word|fill)\\b"
+				}
+			]
+		},
+		"variables": {
+			"patterns": [
+				{
+					"name": "variable.label.lc-2200",
+					"match": "\\b\\w+:"
+				}
+			]
+		},
+		"constants": {
+			"patterns": [
+				{
+					"name": "constant.numeric.hex.lc-2200",
+					"match": "\\b0?x[0-9a-fA-F]+\\b"
+				},
+				{
+					"name": "constant.numeric.dec.lc-2200",
+					"match": "(\\b|-)\\d+\\b"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.exclamation-point",
+					"match": "!.*"
+				}
+			]
+		}
+	},
+	"scopeName": "source.lc-2200"
+}
