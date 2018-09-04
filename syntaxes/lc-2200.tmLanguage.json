@@ -27,6 +27,10 @@
 					"match": "(?i)\\b(goto|lea|skp(e|gt))\\b"
 				},
 				{
+					"name": "keyword.other.opcode.bob-2200",
+					"match": "(?i)\\b(lea|slt|bne)\\b"
+				},
+				{
 					"name": "markup.bold.reg.lc-2200",
 					"match": "(?i)\\$(zero|at|v0|a[0-2]|t[0-2]|s[0-2]|k0|sp|fp|ra)\\b"
 				},
